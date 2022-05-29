@@ -304,4 +304,9 @@ p {
         padding: 20px;
         position: relative;
     }
+
+    .image-find-product-section {
+        width: 13rem;
+        position: relative;
+    }
 }
