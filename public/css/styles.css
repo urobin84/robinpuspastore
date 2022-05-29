@@ -1,0 +1,290 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+    background:
+            linear-gradient(90deg, hsl(256,33,10) (22px - 5px), transparent 1%) center,
+            linear-gradient(hsl(256,33,10) (22px - 5px), transparent 1%) center, hsl(256,33,70);
+    background-size: 100% 100%;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat-Bold";
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+    font-family: "Montserrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-family: "Playfair Display";
+    font-size: 2.3rem;
+    line-height: 1.5;
+}
+
+/* Containers */
+
+.container-fluid{
+    padding: 5% 13%;
+}
+
+.container-nav{
+    padding: 0.5% 10%;
+}
+
+/* Sections */
+
+.colored-section {
+    background-color: #1e8c45;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 0 0;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+/* Buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+
+#title {
+    background-color: #C8EBFF;
+    color: #000000;
+    text-align: left;
+}
+
+.discount-lable {
+    color: #4176E9;
+    font-family: "PT Sans";
+    font-style: italic;
+}
+
+.ads-world {
+    color: #000000;
+    font-family: "PT Sans Caption";
+    font-style: bold;
+}
+
+.sub-ads-world {
+    color: #53706C;
+    font-family: "Quantico";
+    font-style: italic;
+    margin: 2.5rem 0;
+}
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+
+/* Title Image */
+
+.title-image {
+    width: 32%;
+    transform: rotate(0deg);
+    position: absolute;
+}
+
+/* Features Section */
+
+#features {
+    position: relative;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+
+.feature-box {
+    padding: 4.5%;
+}
+
+.icon {
+    color: #64A37B;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #1e8c45;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+    background-color: #64A37B;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+#press {
+    background-color: #64A37B;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* New Product Section*/
+#new-product-section {
+    padding: 100px;
+    position: relative;
+}
+
+/* Pricing Section */
+
+#pricing {
+    padding: 100px;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+/* CTA Section */
+
+
+/* Footer Section */
+#footer {
+    background-color: #C8EBFF;
+    text-align: center;
+}
+
+
+.social-icon {
+    margin: 20px 10px;
+}
+
+.new-product-image {
+    width: 75%;
+    transform: rotate(0deg);
+}
+.new-product-image-detail {
+    width: 100%;
+    transform: rotate(0deg);
+}
+
+#find-product-section {
+    background-color: #fff;
+    color: #000000;
+    text-align: left;
+}
+
+.row-find-product-section {
+    background-color: #FFF7D8;
+    color: #000000;
+    text-align: left;
+}
+
+.image-find-product-section {
+    width: 25rem;
+    position: relative;
+    left: 25%;
+}
+
+.find-product-world {
+    color: #000000;
+    font-family: "PT Sans Caption";
+    font-style: bold;
+}
+
+.iframe-map {
+    padding: 0 0 0 0;
+    width: 100%;
+}
+
+.info-contact {
+    text-align: left;
+}
+
+.btn-wa-find-product {
+    margin: 2.5rem 0;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    /*background-color: red;*/
+    color: red;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+#myBtn:hover {
+    /*background-color: #555;*/
+}
+
+.spec-product {
+    text-align: left;
+}
+
+
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        display: none;
+    }
+}
