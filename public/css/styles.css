@@ -287,4 +287,9 @@ p {
         transform: rotate(0);
         display: none;
     }
+
+    #new-product-section {
+        padding: 20px;
+        position: relative;
+    }
 }
